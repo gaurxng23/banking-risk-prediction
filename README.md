@@ -1,13 +1,16 @@
-# Banking Risk Monitoring System
+- # Banking Risk Monitoring System
 
 ## Completed Phases
-- Phase 1: Setup and dataset loading
-- Phase 2: Data preprocessing
+- Phase 1: Setup
+- Phase 2: Data Preprocessing
+- Phase 3: SQL KPI & Risk Calculation
 
-## Description
-This project aims to build a system that monitors banking operational risk and predicts future risk using machine learning.
+## Features Implemented
+- Transaction data processing
+- KPI generation (volume, failure rate, delay)
+- Rule-based risk classification (Low / Medium / High)
 
 ## Next Steps
-- SQL (KPI calculation)
 - Feature engineering
 - Random Forest model
+- Dashboard (Power BI)
