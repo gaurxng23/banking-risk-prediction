@@ -1,0 +1,31 @@
+============================================================
+EDA SUMMARY REPORT
+============================================================
+
+Dataset size: 500,000 rows
+Date range: 2023-01-01 00:40:00 to 2024-12-30 23:58:00
+
+Target Distribution:
+  Success: 460,149 (92.03%)
+  Failure: 39,851 (7.97%)
+
+Fraud Distribution:
+  Fraud: 4,088 (0.82%)
+
+Channel Distribution:
+  agent: 2,505 (8.18% failure)
+  ussd: 7,699 (8.13% failure)
+  pos: 149,622 (8.08% failure)
+  web: 50,354 (8.06% failure)
+  atm: 99,431 (7.90% failure)
+  mobile: 175,355 (7.90% failure)
+  branch: 15,034 (7.71% failure)
+
+============================================================
+KEY INSIGHTS:
+============================================================
+1. Failure rate is 7.97%
+2. Fraud rate is 0.82% (4,088 cases)
+3. insuf_balance correlation is near 0 (will fix in Phase 5)
+4. All channels have similar failure rates (7.7-8.2%)
+5. Date range spans 2 years - good for time-based split

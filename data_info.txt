@@ -1,0 +1,4 @@
+Sample size: 500,000
+Date range: 2023-01-01 00:40:00 to 2024-12-30 23:58:00
+Failure rate: 7.97%
+Fraud rate: 0.82%
